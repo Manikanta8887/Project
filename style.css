@@ -1,0 +1,636 @@
+body{
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .logo{
+display: flex;
+align-items: center;
+}
+
+header > .logo{
+    font-size: 1rem;
+    margin-left: 30px;
+}
+
+nav{
+display: flex;
+/* margin-right: 80px; */
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+nav li a:hover{
+   color: aquamarine;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.parent-section{
+    background-color: darkgrey;
+    text-align: center;
+    width: 100vw;
+}
+
+section div.banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    margin: 0px 60px 0px 60px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* section div.banner img{
+        -webkit-filter: brightness(0.1);
+        filter: brightness(0.1);
+} */
+
+section div.banner-content{
+    padding: 30px 5px;
+}
+
+section div.banner-content h1,p,img{
+    padding: 15px 5px;
+}
+
+section select.dropdown{
+    background-color: aquamarine;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+section div.form{
+    background-color: white;
+    width: 70%;
+    color: black;
+    padding: 30px;
+}
+
+section div.form label{
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0.6rem;
+}
+
+.form1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.3rem;
+}
+
+.form1 input{
+    border: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+.form1 select{
+    width: 30px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+#form2{
+    margin: 0px 30px 0px 30px;
+}
+
+.form1 button{
+    background-color: aquamarine;
+    padding: 10px;
+    color: white;
+    border: none;
+    /* margin-bottom: 20px; */
+}
+
+.banner-content-down{
+    margin-bottom: 30px;
+}
+
+span{
+    font-style: normal;
+    font-weight: bold;
+}
+
+div a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.Tour{
+    background-color: white;
+    margin: 0px 60px 0px 60px;
+    width: 92%;
+    position: relative;
+}
+
+.Europe{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Europe img{
+    width: 50%;
+    padding: 0%;
+}
+
+.main-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    position: absolute;
+    top: 8rem;
+    right: 2rem;
+}
+
+.Position{
+    background-color: aquamarine;
+    color: white;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-position1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    position: absolute;
+    top: 40rem;
+    left: 2rem;
+}
+
+.Asia{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Asia img{
+    width: 50%;
+    padding: 0%;
+}
+
+
+.Position1{
+    background-color: pink;
+    color: white;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.America{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.America img{
+    width: 50%;
+    padding: 0%;
+}
+
+.main-position2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    position: absolute;
+    top: 70rem;
+    right: 2rem;
+}
+
+.Position2{
+    background-color: aquamarine;
+    color: white;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1{
+    background-color: white;
+    color: aquamarine;
+}
+
+.button2{
+    background-color: white;
+    color: pink;
+}
+
+.button3{
+    background-color: white;
+    color: aquamarine;
+}
+
+.countries{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.countries img{
+    margin: 0px 10px;
+}
+
+.countries img:hover{
+    background-color: darkorchid;
+}
+
+.Hotel{
+    margin: 50px 0px;
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.First-Hotel{
+    background-color: white;
+    width: 70%;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    /* border: 1px solid grey; */
+}
+
+.Hotel-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#image{
+    padding: 0%;
+}
+
+.Hotel-Cost{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: aquamarine;
+    width: 200px;
+    align-items: center;
+    width: 25%;
+    height: 180px;
+}
+
+.Hotel-Cost img{
+    height: 180px;
+    width: 30px;
+    padding: 0%;
+    margin-right: 20px;
+}
+
+.World-Map{
+    background-image: url('./images/World\ Map.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+footer{
+    background-color: aquamarine;
+    color: white;
+    font: bold;
+    text-align: center;
+    padding: 10px 20px 10px 10px;
+    width: 90%;
+    margin: 0px 25px 0px 60px;
+}
+
+.main-form{
+    position: absolute;
+    top: 10rem;
+    right: 10rem;
+}
+
+.form3{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    /* margin-left: 30px; */
+}
+
+.form5{
+    padding: 10px;
+    background-color: whitesmoke;
+    border: none;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}  */
+
+.arrow-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.arrow {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+}
+
+.arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 30px;
+    background-color: grey;
+}
+
+.arrows:hover{
+    background-color: white;
+}
+
+.arrow:hover {
+    background-color: grey;
+}
+
+.left span, .right span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left span:hover, .right span:hover {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.down-arrow-button {
+    background-color: #47c3af; /* Light teal color */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 15px;
+}
+
+.down-arrow-button span {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.down-arrow-button:hover {
+    background-color: #3b9f8c; /* Slightly darker teal on hover */
+}
+
+
+@media screen and (max-width:425px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        width: 100vw;
+    }
+
+    .parent-section{
+        width: 100vw;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section div.banner{
+        height: 1050px;
+    }
+
+    .Tour{
+        margin: 0% 3% 0% 3.5%;
+    }
+
+    .main-position{
+        visibility: hidden;
+    }
+    .main-position1{
+        visibility: hidden;
+    }
+    .main-position2{
+        visibility: hidden;
+    }
+
+    .countries{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .First-Hotel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Hotel-Cost{
+        width: 50%;
+    }
+
+    .World-Map{
+        background-size: cover;
+    }
+
+    .main-form{
+        position: absolute;
+        top: 6rem;
+        right: rem;
+    }
+
+    footer{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:1024px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        width: 100vw;
+    }
+
+    .parent-section{
+        width: 100vw;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section div.banner{
+        height: 1050px;
+    }
+
+    .Tour{
+        margin: 0% 3% 0% 3.5%;
+    }
+
+    .main-position{
+        visibility: hidden;
+    }
+    .main-position1{
+        visibility: hidden;
+    }
+    .main-position2{
+        visibility: hidden;
+    }
+
+    .countries{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .First-Hotel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Hotel-Cost{
+        width: 50%;
+    }
+
+    .World-Map{
+        background-size: cover;
+    }
+
+    .main-form{
+        position: absolute;
+        top: 6rem;
+        right: rem;
+    }
+
+    footer{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
